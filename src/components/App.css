@@ -1,0 +1,99 @@
+/* .container {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* STEP 4 Customize with CSS Vars */
+sp-theme {
+    /* margin: 0 var(--spectrum-global-dimension-static-size-75); */
+    display: grid;
+}
+
+h2 {
+    font-weight: var(--spectrum-global-font-weight-black);
+}
+
+sp-swatch {
+    width: var(--spectrum-swatch-size-medium);                
+}
+
+sp-button {
+    flex: 1;
+    max-width: calc(
+        (100% - var(--spectrum-global-dimension-static-size-250)) / 2
+    );
+}
+
+sp-textfield,
+sp-picker {
+    width: var(--spectrum-global-dimension-static-size-1700);
+    display: flex;
+}
+
+sp-number-field {            
+    width: 100%;
+}
+
+sp-button-group {
+    margin-top: var(--spectrum-global-dimension-static-size-300);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* STEPS - Typography  */
+    /* font-size: var(--spectrum-global-dimension-static-size-200);
+    font-weight: var(--spectrum-global-font-weight-regular);
+    line-height: var(--spectrum-global-dimension-static-size-300); */
+
+sp-slider {
+    width: 250px;
+    --spectrum-slider-font-size: var(--spectrum-font-size-100);
+    /* width: var(--spectrum-global-dimension-static-size-900); */
+    /* width: 100%;                 */
+    /* --spectrum-slider-font-size: var(--spectrum-font-size-100); */
+} 
+
+sp-field-label {
+   /* font-size: var(--spectrum-font-size-100); */
+   font-size: var(--spectrum-global-dimension-font-size-100);
+   /* font-size: var(--spectrum-global-dimension-static-size-200); */
+    /* font-weight: var(--spectrum-global-font-weight-regular); */
+    /* line-height: var(--spectrum-global-dimension-static-size-300); */
+}
+
+.color-well {
+    cursor: pointer;
+    --mod-swatch-border-thickness: var(--spectrum-divider-thickness-small);
+    --mod-swatch-border-color: var(--spectrum-transparent-black-500);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: var(--spectrum-global-dimension-static-size-100); */
+    /* width: var(--spectrum-global-dimension-static-size-400); */
+}
+
+.gap-20 {
+    gap: var(--spectrum-global-dimension-static-size-250); 
+}
+
+.margin-top-10 {
+    margin-top: var(--spectrum-global-dimension-static-size-125); 
+}
+
+#finalCardCanvas {
+    /* width: 100%;
+    height: 100%; */
+    /* width: 300px;
+    height: 360px; */
+} 

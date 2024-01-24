@@ -1,0 +1,21 @@
+{
+    "testId": "69172d0d-81ac-4657-ac95-884d8a3d6121",
+    "name": "Bingo Card Gen 2",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html"
+        }
+    ]
+}
